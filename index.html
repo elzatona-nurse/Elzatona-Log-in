@@ -94,14 +94,14 @@
     <div class="message" id="message"></div>
 
     <div class="info-box">
-      <p>Elzatona Nurse معمول مخصوص علشان يساعد طلاب <strong>كلية التمريض</strong> على الفهم والمذاكرة بطريقة سهلة وسريعة، وباللغة اللي بتتكلموها.</p>
+      <p>برنامج Elzatona Nurse معمول مخصوص علشان يساعد طلاب <strong>كلية التمريض</strong> على الفهم والمذاكرة بطريقة سهلة وسريعة، وباللغة اللي بتتكلموها.</p>
       <p>لكن تشغيل النظام بيحتاج <strong>مصاريف تشغيل كبيرة</strong> علشان يفضل شغّال بكفاءة ومتاح ليك طول الوقت.</p>
-      <p><strong>قررت أخليه مجاني تمامًا لحد يوم 30/4</strong> (آخر الشهر).</p>
+      <p><strong>قررنا نخليه مجاني تمامًا لحد يوم 30/4</strong> (آخر الشهر).</p>
       <p>وبعد كده هيكون بنظام اشتراك بسيط يساعدنا نكمل:</p>
       <ul>
         <li>✅ شهر = <strong>100 جنيه</strong></li>
         <li>✅ شهرين = <strong>150 بدل 200</strong></li>
-        <li>✅ 3 شهور = <strong>200 بدل 300 + هتاخد شهر هدية</strong></li>
+        <li>✅ ثلاث شهور = <strong>200 بدل 300 + هتاخد شهر هدية</strong></li>
       </ul>
       <p style="color:#155724; font-weight: bold;">استغل الفرصة وادخل دلوقتي مجانًا قبل ما ينتهي العرض!</p>
     </div>
@@ -123,7 +123,7 @@
       message.style.color = '#555';
 
       try {
-        const response = await fetch(https://script.google.com/macros/s/AKfycbzguaT2q6Sj0dekHoKG5H-RHPW_IWyE-7M61vixtIIUHRs1bFfOfMDRphu4xwDsIA3v/exec?phone=${phone}&code=${code});
+        const response = await fetch(https://script.google.com/macros/s/AKfycbzguaT2q6Sj0dekHoKG5H-RHPW_IWyE-7M61vixtIIUHRs1bFfOfMDRphu4xwDsIA3v/exec?phone);
         const data = await response.json();
 
         if (data.status === "success") {
