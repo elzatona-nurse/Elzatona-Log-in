@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>تسجيل دخول Elzatona Nurse</title>
+  <title>الدخول إلى Elzatona Nurse</title>
   <style>
     body {
       font-family: 'Cairo', sans-serif;
@@ -87,7 +87,7 @@
       message.style.color = '#555';
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbzguaT2q6Sj0dekHoKG5H-RHPW_IWyE-7M61vixtIIUHRs1bFfOfMDRphu4xwDsIA3v/exec?phone=" + phone + "&code=" + code);
+        const response = await fetch(https://script.google.com/macros/s/AKfycbzguaT2q6Sj0dekHoKG5H-RHPW_IWyE-7M61vixtIIUHRs1bFfOfMDRphu4xwDsIA3v/exec?phone=${phone}&code=${code});
         const data = await response.json();
 
         if (data.status === "success") {
